@@ -4,7 +4,14 @@ import Image from "next/image";
 const HeroSection = () => {
     return (
         <section className="py-20 px-6 md:px-12 bg-white relative overflow-hidden">
-            <div className="max-w-[1200px] mx-auto grid grid-cols-1 lg:grid-cols-2 items-center gap-12">
+            <Image
+                src={"/bg.png"}
+                alt={"background"}
+                width={1000}
+                height={500}
+                className="absolute left-0 bottom-[10px] z-[1]"
+            />
+            <div className="max-w-[1200px] mx-auto grid grid-cols-1 z-[2] lg:grid-cols-2 items-center gap-12">
                 <div>
                     <p className="text-[#EEC044] font-medium mb-2">Get to know us</p>
                     <h1 className="text-4xl md:text-5xl font-bold mb-4">
