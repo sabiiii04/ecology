@@ -5,6 +5,9 @@ import FAQ from "@/components/HomePage/FAQ";
 import Projects from "@/components/HomePage/Projects";
 import Market from "@/components/HomePage/Market";
 import MeetOurFarmers from "@/components/HomePage/MeetOurFarmers";
+import EcoFriendly from "@/components/HomePage/EcoFriendly";
+import News from "@/components/HomePage/News";
+import ContactUs from "@/components/HomePage/ContactUs";
 export default function Home() {
   return (
     <>
@@ -15,6 +18,9 @@ export default function Home() {
       <Projects/>
         <Market/>
         <MeetOurFarmers/>
+        <EcoFriendly/>
+        <News/>
+        <ContactUs/>
 
 
 

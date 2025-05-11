@@ -5,20 +5,20 @@ import Image from "next/image";
 
 const HeroSection = () => {
     return (
-        <section className="h-screen" style={{ backgroundImage: `url("/hero_bg.png")`, backgroundRepeat: "no-repeat", backgroundSize: "cover" }}>
+        <section className="h-screen relative w-full" style={{ backgroundImage: `url("/HeroBg.jpg")`, backgroundRepeat: "no-repeat", backgroundSize: "cover" }}>
+            <div className="absolute inset-0 bg-black opacity-20"></div>
             <Navbar />
-            <div className="h-full flex flex-col justify-center items-center">
+            <div className="h-full flex flex-col justify-center items-center z-10 relative">
                 <h1 className="flex flex-col leading-[100px] text-center text-white text-[80px] font-extrabold">
-                    <span>Natural Products</span>
-                    <span>For Lovers of{" "}
-                        <span className="relative text-[#EEC044] z-[2]">
-                            Healthy
-                            <Image className={"absolute right-0 -bottom-[10px] z-[1]"} src={"/line.png"} alt={"yellow line"} width={270} height={31}/>
+                    <span>Every</span>
+                    <span>Drop{" "}
+                        <span className="relative text-[#D1F8ef] z-[2]">
+                            Counts
                         </span>
                     </span>
-                    <span>Organic Food</span>
+                    <span>Don't Waste It</span>
                 </h1>
-                <Link href={"/"} className="text-white font-bold bg-[#4BAF47] px-8 py-4 rounded-[10px]">
+                <Link href={"/"} className="text-white font-bold bg-[#3674b5] px-8 py-4 rounded-[10px]">
                     Discover More
                 </Link>
             </div>

@@ -13,17 +13,15 @@ const Navbar = () => {
     return (
         <header className="bg-transparent text-white absolute top-0 left-0 w-full py-4 px-6">
             <div className="max-w-[1200px] mx-auto flex justify-between items-center">
+                <Image src="/Logo3.png" alt="logo" width="60" height="60"/>
                 <ul className="flex items-center gap-4">
-                    <li className="flex items-center gap-4">
-                        <Image src="/logo.png" alt="logo" width="170" height="51" />
-                    </li>
                     <li><FaTwitter /></li>
                     <li><FaFacebook /></li>
                     <li><FaPinterest /></li>
                     <li><FaInstagram /></li>
                 </ul>
                 <nav className="hidden lg:flex gap-6 font-medium text-sm">
-                    <Link href="#" className="hover:text-[#4BAF47]">Home</Link>
+                    <Link href="#" className="hover:text-[#D1F8ef]">Home</Link>
                     <Link href="#">About</Link>
                     <Link href="#">Services</Link>
                     <Link href="#">Projects</Link>
@@ -35,7 +33,7 @@ const Navbar = () => {
                     <FaMagnifyingGlass />
                     <FaShoppingCart />
                     <div className="flex items-center gap-2">
-                        <FaPhoneAlt className="text-[#4BAF47]" />
+                        <FaPhoneAlt className="text-[#D1F8ef]" />
                         <span className="hidden sm:inline">+98 (000) - 9630</span>
                     </div>
                 </div>

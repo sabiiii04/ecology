@@ -9,22 +9,22 @@ const questions = [
 const FAQSection = () => {
     return (
         <section className="py-20 bg-white grid md:grid-cols-2 items-center">
-            <div className="bg-[#4BAF47] h-full p-8 flex items-center justify-center relative">
+            <div className="bg-[#3674b5] h-full p-8 flex items-center justify-center relative">
                 <div className="relative z-10">
                     <Image src="/greens.png" alt="FAQ Contact" width={300} height={400} className="rounded-xl shadow-xl" />
-                    <div className="absolute bottom-[-20px] left-1/2 transform -translate-x-1/2 bg-yellow-400 text-white font-semibold text-center px-6 py-3 rounded-lg shadow-md">
+                    <div className="absolute bottom-[-20px] left-1/2 transform -translate-x-1/2 bg-[#A1E3F9] text-white font-semibold text-center px-6 py-3 rounded-lg shadow-md">
                         Call us Anytime <br /> <span className="text-2xl">666 888 0000</span>
                     </div>
                 </div>
             </div>
             <div className="p-10">
-                <p className="text-[#f5a623] font-medium">Frequently Asked Questions</p>
-                <h2 className="text-4xl font-bold  mb-8">You've Any Questions</h2>
+                <p className="text-[#3674b5] font-medium">Frequently Asked Questions</p>
+                <h2 className="text-4xl font-bold  mb-8">Ask Us Any Question</h2>
                 <div className="space-y-4">
                     {questions.map((q, i) => (
                         <div key={i} className="bg-[#f2f4e9] px-6 py-4 rounded-lg flex items-center justify-between hover:bg-[#e1e4d7] transition">
                             <span className="font-medium ">{q}</span>
-                            <div className="bg-[#C5CE38] text-white p-2 rounded-full">→</div>
+                            <div className="bg-[#3674b5] text-white p-2 rounded-full">→</div>
                         </div>
                     ))}
                 </div>

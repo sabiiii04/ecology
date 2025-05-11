@@ -5,7 +5,7 @@ const CompletedProjects = () => {
         <section className="bg-white py-20">
             <div className="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-4 mb-16">
                 <div>
-                    <p className="text-[#EEC044] font-semibold mb-2">Our Recent Work</p>
+                    <p className="text-[#365fb5] font-semibold mb-2">Our Recent Work</p>
                     <h2 className="text-4xl font-bold">Recently Completed</h2>
                     <h2 className="text-4xl font-bold">Projects</h2>
                 </div>
