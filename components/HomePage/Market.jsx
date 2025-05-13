@@ -16,7 +16,7 @@ const CompletedProjects = () => {
                         </p>
                     </div>
                     <div className="mt-10 md:mt-0 ">
-                        <Image src="/Basket.png" alt="Basket of Vegetables" width={400} height={400} />
+                        <Image src="/WaterDroplet.png" alt="Basket of Vegetables" width={370} height={370} />
                     </div>
                 </div>
                 <div className="absolute"/>

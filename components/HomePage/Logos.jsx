@@ -2,15 +2,15 @@ import Image from "next/image";
 
 const PartnerLogos = () => {
     return (
-        <div className="bg-yellow-400 py-6">
-            <div className="max-w-6xl mx-auto flex flex-wrap justify-between items-center gap-6 px-4">
-                {["Wheat", "Agro", "Farm", "Rice", "Agric"].map((name, idx) => (
+        <div className="bg-[#3674b5] py-10">
+            <div className="max-w-6xl mx-auto flex flex-wrap justify-between items-center gap-2 px-8">
+                {[Array(5)].map((_, idx) => (
                     <Image
                         key={idx}
-                        src={`/FarmLogo.png`}
-                        alt={`Logo`}
-                        width={100}
-                        height={50}
+                        src="/Logo3.png"
+                        alt="Partner Logo"
+                        width={60}
+                        height={60}
                         className="object-contain opacity-80 hover:opacity-100 transition"
                     />
                 ))}
@@ -20,3 +20,4 @@ const PartnerLogos = () => {
 };
 
 export default PartnerLogos;
+
