@@ -7,8 +7,8 @@ const PartnerLogos = () => {
                 {["Wheat", "Agro", "Farm", "Rice", "Agric"].map((name, idx) => (
                     <Image
                         key={idx}
-                        src={`/logos/logo${idx + 1}.png`} // replace with actual file paths
-                        alt={`${name} Logo`}
+                        src={`/FarmLogo.png`}
+                        alt={`Logo`}
                         width={100}
                         height={50}
                         className="object-contain opacity-80 hover:opacity-100 transition"

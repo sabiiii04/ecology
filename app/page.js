@@ -8,6 +8,8 @@ import MeetOurFarmers from "@/components/HomePage/MeetOurFarmers";
 import EcoFriendly from "@/components/HomePage/EcoFriendly";
 import News from "@/components/HomePage/News";
 import ContactUs from "@/components/HomePage/ContactUs";
+import Logos from "@/components/HomePage/Logos";
+import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <>
@@ -21,10 +23,8 @@ export default function Home() {
         <EcoFriendly/>
         <News/>
         <ContactUs/>
-
-
-
-
+        <Logos/>
+        <Footer/>
 
     </>
   );

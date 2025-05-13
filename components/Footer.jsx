@@ -1,10 +1,12 @@
-import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaPaperPlane } from "react-icons/fa";
+import { FaPhone } from "react-icons/fa";
+import { FaEnvelope } from "react-icons/fa";
+import { FaMapMarkerAlt } from "react-icons/fa";
+import { FaPaperPlane } from "react-icons/fa";
 
 const Footer = () => {
     return (
         <footer className="bg-[#1a1a1a] text-white py-12">
             <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 px-4">
-                {/* Brand */}
                 <div>
                     <h2 className="text-2xl font-bold text-green-500 mb-4">Agrios</h2>
                     <p className="text-sm text-gray-300 mb-4">
@@ -17,8 +19,6 @@ const Footer = () => {
                         <a href="#"><i className="fab fa-instagram" /></a>
                     </div>
                 </div>
-
-                {/* Explore */}
                 <div>
                     <h3 className="text-lg font-semibold mb-4">Explore</h3>
                     <ul className="space-y-2 text-gray-300 text-sm">
@@ -30,8 +30,6 @@ const Footer = () => {
                         <li>Contact</li>
                     </ul>
                 </div>
-
-                {/* News */}
                 <div>
                     <h3 className="text-lg font-semibold mb-4">News</h3>
                     <div className="text-sm space-y-3 text-gray-300">
@@ -45,8 +43,6 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-
-                {/* Contact */}
                 <div>
                     <h3 className="text-lg font-semibold mb-4">Contact</h3>
                     <div className="text-sm space-y-3 text-gray-300">
