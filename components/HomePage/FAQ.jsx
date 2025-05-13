@@ -1,39 +1,70 @@
+"use client";
+
+import { useState } from "react";
 import Image from "next/image";
+import { FaChevronDown } from "react-icons/fa";
 
-const questions = [
-    "World’s hottest destinations for vegans",
-    "Let’s grow naturaly and live naturally",
-    "Best vegetables for your healthy hair",
-];
+const ExperiencedBusiness = () => {
+    const faqs = [
+        {
+            question: "What should I include in my personal details?",
+            answer: "Negue partiner nascetur facilisis suscipit ridiculus augue lobortis imperdiet vivamus...",
+        },
+        {
+            question: "Where can I find my business growth result?",
+            answer: "Business growth results can be found through analytics platforms...",
+        },
+        {
+            question: "Did you get any business consultant?",
+            answer: "Yes, we provide top-notch business consultancy services...",
+        },
+    ];
 
-const FAQSection = () => {
+    const [selectedFaqIndex, setSelectedFaqIndex] = useState(-1);
+
     return (
         <section className="py-20 bg-white grid md:grid-cols-2 items-center">
             <div className="bg-[#3674b5] h-full p-8 flex items-center justify-center relative">
                 <div className="relative z-10">
-                    <Image src="/greens.png" alt="FAQ Contact" width={300} height={400} className="rounded-xl shadow-xl" />
+                    <Image
+                        src="/greens.png"
+                        alt="FAQ Contact"
+                        width={300}
+                        height={400}
+                        className="rounded-xl shadow-xl"
+                    />
                     <div className="absolute bottom-[-20px] left-1/2 transform -translate-x-1/2 bg-[#A1E3F9] text-white font-semibold text-center px-6 py-3 rounded-lg shadow-md">
-                        Call us Anytime <br /> <span className="text-2xl">666 888 0000</span>
+                        Call us Anytime <br />
+                        <span className="text-2xl">666 888 0000</span>
                     </div>
                 </div>
             </div>
-            <div className="p-10">
-                <p className="text-[#3674b5] font-medium">Frequently Asked Questions</p>
-                <h2 className="text-4xl font-bold  mb-8">Ask Us Any Question</h2>
-                <div className="space-y-4">
-                    {questions.map((q, i) => (
-                        <div key={i} className="bg-[#f2f4e9] px-6 py-4 rounded-lg flex items-center justify-between hover:bg-[#e1e4d7] transition">
-                            <span className="font-medium ">{q}</span>
-                            <div className="bg-[#3674b5] text-white p-2 rounded-full">→</div>
+            <div className="w-full lg:w-1/2 flex flex-col gap-4">
+                {faqs.map((faq, index) => (
+                    <div
+                        onClick={() => setSelectedFaqIndex(selectedFaqIndex === index ? -1 : index)}
+                        key={index}
+                        className={`hover:cursor-pointer ${selectedFaqIndex === index ? "bg-white text-black" : "bg-[#152033]"} p-6 rounded-lg`}
+                    >
+                        <div className="flex justify-between items-center">
+                            <p className="text-lg font-semibold">
+                                <span className="text-[#25758A] text-[25px] mr-2">{index + 1}.</span> {faq.question}
+                            </p>
+                            <FaChevronDown className={`text-[#25758A]`} />
                         </div>
-                    ))}
-                </div>
-                <p className="mt-6 text-sm">
-                    Suspendisse finibus urna mauris, vitae consequat quam vel. Vestibulum leo ligula, molestie ullamcorper vulputate vitae sodales commodo nisi.
-                </p>
+                        {selectedFaqIndex === index && (
+                            <p className="px-5 pt-5">
+                                {faq.answer}
+                            </p>
+                        )}
+                    </div>
+                ))}
             </div>
         </section>
     );
 };
 
-export default FAQSection;
+export default ExperiencedBusiness;
+
+
+
