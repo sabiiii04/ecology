@@ -2,7 +2,7 @@ import React from 'react';
 
 const CompletedProjects = () => {
     return (
-        <section className="bg-white py-20">
+        <section className="bg-white">
             <div className="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-4 mb-16">
                 <div>
                     <p className="text-[#365fb5] font-semibold mb-2">Our Recent Work</p>

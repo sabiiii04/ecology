@@ -27,19 +27,17 @@ const MeetOurFarmers = () => {
             <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-16 justify-center items-center">
                 {farmers.map((farmer, index) => (
                     <div key={index} className="relative">
-                        <div>
-                            <Image
-                                src={farmer.image}
-                                alt={farmer.name}
-                                width={400}
-                                height={300}
-                                className="w-full h-[450px] object-cover rounded-lg"
-                            />
-                        </div>
-                        <div className="rounded-lg shadow-md bg-white mt-10 px-10 py-3 w-fit relative bottom-20 -left-5">
+                        <Image
+                            src={farmer.image}
+                            alt={farmer.name}
+                            width={400}
+                            height={300}
+                            className="w-full h-[450px] object-cover rounded-lg"
+                        />
+                        <div className="rounded-lg shadow-md bg-white mt-10 px-10 py-3 w-fit relative bottom-20 left-1/2 transform -translate-x-1/2">
                             <h4 className="text-lg font-semibold">{farmer.name}</h4>
                             <p className="text-sm">{farmer.role}</p>
-                            <div className="bg-[#A1E3F9] text-white p-2 rounded-[5px] w-fit absolute bottom-6 -left-5">
+                            <div className="bg-[#A1E3F9] text-white p-2 rounded-[5px] w-fit absolute bottom-6 -right-5">
                                 <SiMoleculer />
                             </div>
                         </div>
@@ -51,3 +49,4 @@ const MeetOurFarmers = () => {
 };
 
 export default MeetOurFarmers;
+
