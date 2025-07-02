@@ -12,13 +12,14 @@ const HeroSection = () => {
                         Who We Are
                     </h1>
                     <p className="mb-6 max-w-lg">
-                        There are many variations of passages of Lorem Ipsum available, majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+                        Welcome to the Asian-Pacific Ecological Forum — a coalition of environmental experts, community leaders, scientists, and advocates united to protect one of our planet’s most vital resources: water.
+                        Our mission is to promote sustainable water management, foster innovation, and build stronger, more resilient communities across the Asia-Pacific region.
                     </p>
                     <div className="flex items-center gap-4 mb-8">
                         <div className="flex items-center gap-2 bg-white shadow-md rounded-lg p-3">
                             <div className="w-10 h-10 bg-[#3674b5] rounded-full flex items-center justify-center text-white text-lg font-bold">→</div>
                             <div>
-                                <p className="text-[#3674b5] text-sm font-semibold">Modern agriculture types</p>
+                                <p className="text-[#3674b5] text-sm font-semibold">Asian-Pacific Ecological Forum</p>
                                 <p className="text-xs">We’re here for you from start to finish</p>
                             </div>
                         </div>

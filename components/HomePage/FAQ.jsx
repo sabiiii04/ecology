@@ -7,16 +7,16 @@ import {FaChevronDown} from "react-icons/fa";
 const ExperiencedBusiness = () => {
     const faqs = [
         {
-            question: "What should I include in my personal details?",
-            answer: "Negue partiner nascetur facilisis suscipit ridiculus augue lobortis imperdiet vivamus...",
+            question: "Why focus on water in the Asia-Pacific region?",
+            answer: "The Asia-Pacific region faces some of the most pressing water challenges — from scarcity and pollution to rising sea levels. Addressing these issues is crucial not only for local communities, but for global ecological stability.",
         },
         {
-            question: "Where can I find my business growth result?",
-            answer: "Business growth results can be found through analytics platforms...",
+            question: "How can I get involved?",
+            answer: "There are many ways to take part — from volunteering in clean-up efforts and attending our events to supporting sustainable policies or donating to water projects.",
         },
         {
-            question: "Did you get any business consultant?",
-            answer: "Yes, we provide top-notch business consultancy services...",
+            question: "Are your projects based in one country or region-wide?",
+            answer: "Our projects span across the entire Asia-Pacific region, including island nations, coastal areas, and inland communities.",
         },
     ];
 
@@ -41,7 +41,11 @@ const ExperiencedBusiness = () => {
                     </div>
                 </div>
             </div>
-            <div className="w-full flex flex-col gap-4 max-w-full md:max-w-[600px] px-5">
+            <div className="w-full flex flex-col gap-4 max-w-full md:max-w-[600px] ">
+                <div>
+                <p className="text-[#3674b5] font-medium">Frequently Asked Questions</p>
+                <h2 className="text-[40px] font-bold  mb-8">You've Any Questions</h2>
+                </div>
                 {faqs.map((faq, index) => (
                     <div key={index}>
                         <div

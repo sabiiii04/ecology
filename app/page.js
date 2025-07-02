@@ -13,11 +13,11 @@ import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <>
-      <HeroSection />
-      <Leader/>
-      <WhatWeOffer/>
-      <FAQ/>
-      <Projects/>
+        <HeroSection />
+        <Leader/>
+        <WhatWeOffer/>
+        <FAQ/>
+        <Projects/>
         <Market/>
         <MeetOurFarmers/>
         <EcoFriendly/>
@@ -25,7 +25,6 @@ export default function Home() {
         <ContactUs/>
         <Logos/>
         <Footer/>
-
     </>
   );
 }

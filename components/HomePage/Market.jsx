@@ -6,13 +6,9 @@ const CompletedProjects = () => {
             <div className="relative py-10" style={{ backgroundImage: `url("/BgWaterPattern.jpg")`, backgroundRepeat: "no-repeat", backgroundSize: "cover", }} >
                 <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between px-4 relative z-10">
                     <div className="bg-[#3674b5] text-white p-8 max-w-md rounded-md shadow-lg">
-                        <h3 className="text-2xl font-bold mb-4">Built the best agriculture market</h3>
+                        <h3 className="text-2xl font-bold mb-4">Every Drop Counts!</h3>
                         <p className="text-lg leading-relaxed">
-                            Give lady of they such they sure it. Me contained explained my
-                            education. Vulgar as hearts by garret. Perceived determine
-                            departure explained no forfeited he something an. Contrasted
-                            dissimilar get joy you instrument out reasonably. Again keeps at no
-                            meant stuff. To perpetual do existence northward as difficult.
+                            Every day, we turn ideas into action — not just with words, but with hands-on solutions, strong partnerships, and real-world results. From mountain rivers to coastal deltas, our projects are driven by science, shaped by communities, and focused on creating lasting change. Our work is never done — but every clean drop, every restored stream, and every informed heart moves us closer to a more water-secure future.
                         </p>
                     </div>
                     <div className="mt-10 md:mt-0 hidden md:block ">

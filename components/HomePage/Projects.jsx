@@ -11,8 +11,7 @@ const CompletedProjects = () => {
                 </div>
                 <div>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipiscing elit penatibusenectus, sem mus etiam pharetra lacus ac tortor vitae, amet tincidunt congue fusce
-                        ridiculus cubilia ad feugiat fames placerat
+                        Here’s a snapshot of what we’ve been up to: Community Water Harvesting in Vietnam, Water Quality Labs Launched in the Philippines, Mangrove Restoration to Protect Coastal Aquifers in Indonesia, Youth-Led Clean River Campaign in Malaysia
                     </p>
                 </div>
             </div>

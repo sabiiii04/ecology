@@ -5,22 +5,22 @@ import { LuWind } from "react-icons/lu";
 
 const services = [
     {
-        title: "Agriculture Products",
-        desc: "Lorem ipsum is simply free available. Aenean leo quam. Pellentesque semornare vestibulum.",
+        title: "Bridging Science and Tradition",
+        desc: "In many parts of the Asia-Pacific, traditional water practices have preserved balance with nature for centuries. We collaborate with indigenous and rural communities to revive and adapt these time-tested methods.",
         image: "/Waterr.jpg",
         icons: <MdWaterDrop />,
 
     },
     {
-        title: "Organic Products",
-        desc: "Lorem ipsum is simply free available. Aenean leo quam. Pellentesque semornare vestibulum.",
+        title: "Cross-Border Cooperation",
+        desc: "Water knows no borders — and neither do we. The challenges facing our rivers, lakes, and oceans require international dialogue and unity.",
         image: "/Leaf.jpg",
         icons: <FaSeedling />,
 
     },
     {
-        title: "Dairy Products",
-        desc: "Lorem ipsum is simply free available. Aenean leo quam. Pellentesque semornare vestibulum.",
+        title: "Education & Awareness",
+        desc: "True change happens when people care — and understand. Our education initiatives, from public campaigns to school programs, aim to raise awareness about the importance of water conservation and how individuals can make a difference.",
         image: "/Wind.jpg",
         icons: <LuWind />,
 

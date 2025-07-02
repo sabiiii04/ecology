@@ -4,17 +4,17 @@ import { SiMoleculer } from "react-icons/si";
 const farmers = [
     {
         name: "Regina Mekhtieva",
-        role: "Farmer",
+        role: "Delegate",
         image: "/Marchen.jpg",
     },
     {
         name: "Nuray Akbarova",
-        role: "Farmer",
+        role: "Coordinator",
         image: "/Ray.jpg",
     },
     {
         name: "Farah Kerimli",
-        role: "Farmer",
+        role: "PR Manager",
         image: "/Farah.jpg",
     },
 ];

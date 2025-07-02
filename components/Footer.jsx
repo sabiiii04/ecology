@@ -12,7 +12,7 @@ const Footer = () => {
                 <div>
                     <Image src="/Logo3.png" alt="logo" width="60" height="60"/>
                     <p className="text-sm  mb-4">
-                        There are many variations of passages of lorem ipsum available, but the majority suffered.
+                        Every Drop Counts.
                     </p>
                     <div className="flex space-x-4 text-lg">
                         <a href="#"><i className="fab fa-twitter" /></a>

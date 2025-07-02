@@ -1,0 +1,32 @@
+[
+  {
+    "slug": "Agriculture-products",
+    "span1": "Agriculture",
+    "span2": "Products",
+    "icon": "/services/Tracktor_Icon.svg",
+    "image": "/services/agriculture-cover.png",
+    "description": "Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia\nquaed inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Aelltes port lacus quis\nenim var sed efficitur turpis gilla sed sit amet finibus eros. Lorem Ipsum is simply dummy text of the\nprinting and typesetting industry. Lorem Ipsum has been the ndustry standard dummy text ever since\nthe 1500s."
+  },
+  {
+    "slug": "Organic-products",
+    "span1": "Organic",
+    "span2": "Products",
+    "icon": "/services/Sapling_Icon.svg",
+    "image": "/services/agriculture-cover.png",
+    "description": "Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia\nquaed inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Aelltes port lacus quis\nenim var sed efficitur turpis gilla sed sit amet finibus eros. Lorem Ipsum is simply dummy text of the\nprinting and typesetting industry. Lorem Ipsum has been the ndustry standard dummy text ever since\nthe 1500s."
+  },
+  {
+    "slug": "Fresh-Vegetables",
+    "span1": "Fresh",
+    "span2": "Vegetables",
+    "icon": "/services/Veg_Icon.svg",
+    "image": "/services/agriculture-cover.png",
+    "description": "Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia\nquaed inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Aelltes port lacus quis\nenim var sed efficitur turpis gilla sed sit amet finibus eros. Lorem Ipsum is simply dummy text of the\nprinting and typesetting industry. Lorem Ipsum has been the ndustry standard dummy text ever since\nthe 1500s."
+  },
+  {"slug": "Dairy-Products",
+    "span1": "Dairy",
+    "span2": "Products",
+    "icon": "/services/Dairy_Icon.svg",
+    "image": "/services/agriculture-cover.png",
+    "description": "Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia\nquaed inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Aelltes port lacus quis\nenim var sed efficitur turpis gilla sed sit amet finibus eros. Lorem Ipsum is simply dummy text of the\nprinting and typesetting industry. Lorem Ipsum has been the ndustry standard dummy text ever since\nthe 1500s."}
+]
